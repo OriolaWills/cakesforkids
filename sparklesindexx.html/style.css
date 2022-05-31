@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+/* body { background-color: rgba(243, 235, 235, 0.644); */
+/* background-image: url(/image.png/image.jpg/sp3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+header {
+  background-color: rgb(0, 153, 64);
+}
+h1 {
+  color: rgb(126, 17, 3);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5em;
+  text-shadow: 5px -10px rgb(90, 42, 42);
+
+
+}
+nav {
+  text-align: right;
+  text-decoration: none;
+  
+   
+}
+nav ol li {
+}
+a {
+  text-decoration: none;
+  justify-content: space-between;
+ 
+}
+a:hover {
+  color: aqua;
+  transition: 0.3s;
+  font-size: 3em;
+  text-decoration: none;
+  font-family: "roboto";
+  font-size: 1em;
+  transition-duration: 0.3s;
+  transition-property: color;
+  transition-timing-function: linear;
+  color: rgb(145, 23, 23)
+}
+.ai--1 {
+  color: rgb(126, 17, 3);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+.ai--2 {
+  color: rgb(10, 5, 29);
+}
+.flex-1 {
+  background-color: rgb(64, 77, 199);
+}
+.flex-2 {
+  background-color: rgb(94, 94, 180);
+}
+.flex-3 {
+  background-color: rgb(40, 94, 40);
+}
+.flex-4 {
+  background-color: rgb(111, 187, 111);
+}
+.flex-5 {
+  display: block;
+  background-color: yellowgreen;
+}
+.container {
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  gap: 5px;
+}
+.address {
+  border: 1px solid blue;
+  width: 150px;
+  border-color: rgb(56, 170, 103);
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+
+  margin: 0%;
+  padding: 10px;
+}
+/* .container-2 {
+  display: block;
+} */
+table {
+  border: 2px solid rgb(46, 5, 5);
+  border-collapse: collapse;
+}
+table td {
+  text-align: center;
+  padding: 5px;
+}
+table tr:hover {
+  background-color: rgb(190, 128, 128);
+}
+table tr :hover {
+  background-color: grey;
+}
+.fa fa question-circle[title~="trust"] {
+  border: 1px solid red;
+}
+/* .tit-1 {
+  text-shadow: -5px -5px rgb(155, 90, 90); */
+}
